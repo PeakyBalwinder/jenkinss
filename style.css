@@ -1,0 +1,215 @@
+
+    body{
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+    }
+.navi ul li {
+    display: inline;
+    margin-right: 20px;
+   
+  }
+  .navi ul li a {
+    padding: 5px;
+    color: rgb(172, 229, 15);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+  }
+
+  .navi ul li:hover {
+    background-color: rgb(162, 227, 20); /* Change the background color on hover */
+  }
+  
+  /* Hover style for the anchor tag (a) inside the list items (li) in the navigation bar - Color 2 */
+  .navi ul li:hover a {
+    color: #0f0101; /* Change the link color on hover */
+  }
+  
+.imges{
+    height: 420px;;
+    width: 1250px;
+    transition: transform 0.9s;
+}
+.Kartik {
+    text-align: center; /* Center the content horizontally */
+  }
+  .j1{
+    font-size:larger;
+            text-align: center;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-bottom: 5px; /* Add space below the h2 element */
+            border-bottom: 9px solid #ddda0b; /* Add a line below the h2 element */
+            width: 50%; 
+            margin: 0 auto; 
+            margin-top: 20px; 
+            margin-bottom:20px;
+  }
+.pic:hover .name{
+    display: flex;
+    position: absolute; /* Position the text absolutely */
+            top: 70%; /* Position the text at the center vertically */
+            left: 50%; /* Position the text at the center horizontally */
+            transform: translate(-50%, -50%); /* Center the text perfectly */
+            background-color: rgba(6, 6, 6, 0.8); /* Background color of the text */
+            color: rgb(255, 255, 255); /* Text color */
+            padding: 2px 2px; /* Padding around the text */
+            border-radius: 0%; /* Rounded corners */
+            pointer-events: none;
+            transition: .5s ease;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align:center;
+            font-size: 12px;     
+            font-family: "Times New Roman", sans-serif;
+            position: absolute;
+            bottom: auto;
+            display: inline-block;
+            width: 100%;
+            white-space:nowrap;
+}
+
+.name{
+    display: none;
+    position: absolute;
+    top: 70%;
+    left: 45%;
+    color: rgb(2, 12, 22);
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.i1{
+    display: block;
+    border: 5px solid #706e6e;
+    border-radius: 50%;
+    width: 198px;
+    margin: auto;
+}
+.Kartik{
+    margin-top: 10%;
+    display: inline;
+    position: relative;
+    justify-content: center;
+}
+.j1 h1{
+    color: rgb(250, 241, 124);
+    font-size: 18px;
+    font-family: Arial;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    justify-self: center;
+}
+
+.j2 h4{
+    color: rgb(250, 241, 124);
+    font-size: 18px;
+    font-family: Arial;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    justify-self: center;
+}
+.j3 h4{
+    color:  rgb(250, 241, 124);
+    font-size: 18px;
+    font-family: Arial;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    justify-self: center;
+}
+
+.j4 h4{
+    color:  rgb(250, 241, 124);
+    font-size: 18px;
+    font-family: Arial;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    justify-self: center;
+}
+.me {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Allow items to wrap if the space is not enough */
+    gap: 20px; /* Add some gap between items */
+  }
+  
+  .pic-container {
+    display: flex; /* Use Flexbox */
+    justify-content: center; /* Center the content horizontally */
+    align-items: flex-start; /* Align items at the top */
+    margin-top: 20px;
+    margin-bottom: 5px;
+    width: 50%; 
+    margin:auto;
+    gap: 20px; /* Add some gap between pic and para in the container */
+  }
+  
+  .pic1,
+  .pic2 {
+    width: 30%; /* Adjust the width of the photos as needed */
+    border-radius: 20px;
+    overflow: hidden; /* Hide any overflowing content within the div */
+    flex: 1; /* Allow photos to take up the remaining space in the container */
+  }
+  
+  .pic1 img,
+  .pic2 img {
+    width: 300px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+  }
+  .h2{
+    font-weight:bolder;
+    font-size:xx-large;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(213, 205, 219);
+}
+  .d1,
+  .d2 {
+    flex: 1; /* Allow paragraphs to take up the remaining space in the container */
+    color: rgb(223, 233, 223);
+    font-size: 20px;
+    font-family: Arial;
+    text-align: center;
+  }
+  
+.gallery {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .photo img {
+    border-radius: 40px;
+    padding: 10px;
+    width: 300px;
+    height: 300px;;
+    object-fit: cover;
+  }
+  
+  /* Adjust the image size for different screen sizes */
+  @media (max-width: 768px) {
+    .photo img {
+      width: 100%; /* Images will take up 100% of the column width on smaller screens */
+    }
+  }
+  
+  /* Adjust the number of columns for smaller screens */
+  @media (max-width: 1224px) {
+    .gallery {
+      flex-direction: column;
+    }
+  }
+  
